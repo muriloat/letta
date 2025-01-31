@@ -104,11 +104,12 @@ class ModelSettings(BaseSettings):
 
 
 cors_origins = [
-    "http://letta.localhost",
-    "http://localhost:8283",
-    "http://localhost:8083",
-    "http://localhost:3000",
-    "http://localhost:4200",
+    "*",
+    #"http://letta.localhost",
+    #"http://localhost:8283",
+    #"http://localhost:8083",
+    #"http://localhost:3000",
+    #"http://localhost:4200",
 ]
 
 # read pg_uri from ~/.letta/pg_uri or set to none, this is to support Letta Desktop
